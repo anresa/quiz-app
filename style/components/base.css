@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --basecolor: white;
+}
+h1 {
+  color: red;
+}
