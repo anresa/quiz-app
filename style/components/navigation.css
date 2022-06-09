@@ -16,9 +16,11 @@ nav {
   max-width: 400px;
   background-color: white;
   display: flex;
-  border-radius: 20px;
+  border-radius: 50%;
   padding: 15px;
-  margin-right: 40px;
+  margin: 10px;
+  font-size: 130%;
+  row-gap: 20px;
 }
 
 ul {
@@ -31,7 +33,18 @@ li {
 }
 
 a:hover {
+  color: #007688bd;
+}
+
+.current-site {
   color: #0076887c;
+  max-width: 400px;
+  background-color: white;
+  display: flex;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  font-size: 130%;
 }
 
 nav a {
