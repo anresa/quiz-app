@@ -9,7 +9,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
     <link rel="stylesheet" href="style.css" />
-    <script type=“text/javascript” src=“js/app.js” defer></script>
+    <script src="./index.js" type="module" defer></script>
     <title>Quiz-App</title>
     </head>
   <body>
@@ -18,12 +18,12 @@
       <h1>Quiz-App</h1>
     </header>
       <section class="container__question-card">
-        <article class="question__card">
-          <button class="bookmark"><i class="fa-solid fa-bookmark"></i></button>
+        <article class="question-card" data-js="card">
+          <button class="bookmark"><i class="fa-solid fa-bookmark" data-js="bookmarks"></i></button>
         <h2>Question:</h2>
-        <p  class="question__text">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
-        <p  class="answer__text">Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
-        <button class="show-answer">Show</br>Answer</button>
+        <p  class="question-card__question">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+        <p  class="question-card__answer hide">Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+        <button class="show-answer" data-js="answer-button">Show</br>Answer</button>
         <div class="container__tags">
           <button class="tag">tag</button>
           <button class="tag">some tag</button>
@@ -31,12 +31,12 @@
           <button class="tag">one more tag</button>
         </div>
         </article>
-        <article class="question__card">
-          <button class="bookmark"><i class="fa-solid fa-bookmark"></i></button>
+        <article class="question-card" data-js="card">
+          <button class="bookmark"><i class="fa-solid fa-bookmark" data-js="bookmarks"></i></button>
         <h2>Question:</h2>
-        <p  class="question__text">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
-        <p  class="answer__text">Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
-        <button class="show-answer">Show</br>Answer</button>
+        <p  class="question-card__question">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+        <p  class="question-card__answer hide">Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+        <button class="show-answer" data-js="answer-button">Show</br>Answer</button>
         <div class="container__tags">
           <button class="tag">tag</button>
           <button class="tag">some tag</button>
@@ -44,12 +44,12 @@
           <button class="tag">one more tag</button>
         </div>
         </article>
-        <article class="question__card">
-          <button class="bookmark"><i class="fa-solid fa-bookmark"></i></button>
+        <article class="question-card" data-js="card">
+          <button class="bookmark"><i class="fa-solid fa-bookmark" data-js="bookmarks"></i></button>
         <h2>Question:</h2>
-        <p  class="question__text">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
-        <p  class="answer__text">Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
-        <button class="show-answer">Show</br>Answer</button>
+        <p  class="question-card__question">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+        <p  class="question-card__answer hide">Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+        <button class="show-answer" data-js="answer-button">Show</br>Answer</button>
         <div class="container__tags">
           <button class="tag">tag</button>
           <button class="tag">some tag</button>

@@ -9,75 +9,92 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="./index.js" type="module" defer></script>
     <title>Quiz-App/Bookmarks</title>
   </head>
   <body>
     <main>
-    <header>
-      <h1>Quiz-App</h1>
-    </header>
-      <section class="container__question-card">
-        <article class="question__card">
-          <button class="bookmark"><i class="fa-solid fa-bookmark"></i></button>
-        <h2>Question:</h2>
-        <p  class="question__text">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
-        <p  class="answer__text">Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
-        <button class="show-answer">Show</br>Answer</button>
-        <div class="container__tags">
-          <button class="tag">tag</button>
-          <button class="tag">some tag</button>
-          <button class="tag">another tag</button>
-          <button class="tag">one more tag</button>
-        </div>
-        </article>
-        <article class="question__card">
-          <button class="bookmark"><i class="fa-solid fa-bookmark"></i></button>
-        <h2>Question:</h2>
-        <p  class="question__text">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
-        <p  class="answer__text">Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
-        <button class="show-answer">Show</br>Answer</button>
-        <div class="container__tags">
-          <button class="tag">tag</button>
-          <button class="tag">some tag</button>
-          <button class="tag">another tag</button>
-          <button class="tag">one more tag</button>
-        </div>
-        </article>
-        <article class="question__card">
-          <button class="bookmark"><i class="fa-solid fa-bookmark"></i></button>
-        <h2>Question:</h2>
-        <p  class="question__text">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
-        <p  class="answer__text">Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
-        <button class="show-answer">Show</br>Answer</button>
-        <div class="container__tags">
-          <button class="tag">tag</button>
-          <button class="tag">some tag</button>
-          <button class="tag">another tag</button>
-          <button class="tag">one more tag</button>
-        </div>
-        </article>
-        </section>
-          </main>
+      <header>
+        <h1>Bookmarks</h1>
+      </header>
+        <section class="container__question-card">
+          <article class="question-card" data-js="card">
+            <button class="bookmark"><i class="fa-solid fa-bookmark" data-js="bookmarks"></i></button>
+          <h2>Question:</h2>
+          <p  class="question-card__question">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+          <p  class="question-card__answer hide">Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+          <button class="show-answer" data-js="answer-button">Show</br>Answer</button>
+          <div class="container__tags">
+            <button class="tag">tag</button>
+            <button class="tag">some tag</button>
+            <button class="tag">another tag</button>
+            <button class="tag">one more tag</button>
+          </div>
+          </article>
+          <article class="question-card" data-js="card">
+            <button class="bookmark"><i class="fa-solid fa-bookmark" data-js="bookmarks"></i></button>
+          <h2>Question:</h2>
+          <p  class="question-card__question">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+          <p  class="question-card__answer hide">Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+          <button class="show-answer" data-js="answer-button">Show</br>Answer</button>
+          <div class="container__tags">
+            <button class="tag">tag</button>
+            <button class="tag">some tag</button>
+            <button class="tag">another tag</button>
+            <button class="tag">one more tag</button>
+          </div>
+          </article>
+          <article class="question-card" data-js="card">
+            <button class="bookmark"><i class="fa-solid fa-bookmark" data-js="bookmarks"></i></button>
+          <h2>Question:</h2>
+          <p  class="question-card__question">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+          <p  class="question-card__answer hide">Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+          <button class="show-answer" data-js="answer-button">Show</br>Answer</button>
+          <div class="container__tags">
+            <button class="tag">tag</button>
+            <button class="tag">some tag</button>
+            <button class="tag">another tag</button>
+            <button class="tag">one more tag</button>
+          </div>
+          </article>
+          </section>
+            </main>
     <footer>
       <nav>
         <ul>
           <li>
-            <a class="navigation__site" href="index.html" alt="Home" role="button"
+            <a
+              class="navigation__site"
+              href="index.html"
+              alt="Home"
+              role="button"
               ><i class="fa-solid fa-house-chimney"></i
             ></a>
           </li>
           <li>
-            <a class="navigation__site--current" href="bookmark.html" alt="Bookmark" role="button"
+            <a
+              class="navigation__site--current"
+              href="bookmark.html"
+              alt="Bookmark"
+              role="button"
               ><i class="fa-solid fa-bookmark"></i
             ></a>
           </li>
           <li>
-            <a class="navigation__site" href="input.html" alt="Create" role="button"
+            <a
+              class="navigation__site"
+              href="input.html"
+              alt="Create"
+              role="button"
               ><i class="fa-solid fa-list"></i
             ></a>
           </li>
           <li>
-            <a class="navigation__site" href="profile.html" alt="Profil" role="button"
+            <a
+              class="navigation__site"
+              href="profile.html"
+              alt="Profil"
+              role="button"
               ><i class="fa-solid fa-user"></i
             ></a>
           </li>
