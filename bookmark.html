@@ -12,74 +12,72 @@
     <title>Quiz-App/Bookmarks</title>
   </head>
   <body>
+    <main>
     <header>
-      <h1>Bookmarks</h1>
+      <h1>Quiz-App</h1>
     </header>
-    <section class="container__question--cards">
-      <article class="question__card">
-        <div class="bookmark__marked"><i class="fa-solid fa-bookmark"></i></div>
-      <h2>Question:</h2>
-      <p  class="question__text">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
-      <!-- <p  class="answer__text">Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p> -->
-      <button type="button" id="show-answer">Show</br>Answer</button>
-      <div class="container__tags">
-        <button type="button" class="tag">tag</button>
-        <button type="button" class="tag">some tag</button>
-        <button type="button" class="tag">another tag</button>
-        <button type="button" class="tag">one more tag</button>
-      </div>
-      </article>
-      </section>
-      <section class="container__question--cards">
+      <section class="container__question-card">
         <article class="question__card">
-          <div class="bookmark__marked"><i class="fa-solid fa-bookmark"></i></div>
+          <button class="bookmark"><i class="fa-solid fa-bookmark"></i></button>
         <h2>Question:</h2>
         <p  class="question__text">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
-        <!-- <p  class="answer__text">Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p> -->
-        <button type="button" id="show-answer">Show</br>Answer</button>
+        <p  class="answer__text">Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+        <button class="show-answer">Show</br>Answer</button>
         <div class="container__tags">
-          <button type="button" class="tag">tag</button>
-          <button type="button" class="tag">some tag</button>
-          <button type="button" class="tag">another tag</button>
-          <button type="button" class="tag">one more tag</button>
+          <button class="tag">tag</button>
+          <button class="tag">some tag</button>
+          <button class="tag">another tag</button>
+          <button class="tag">one more tag</button>
+        </div>
+        </article>
+        <article class="question__card">
+          <button class="bookmark"><i class="fa-solid fa-bookmark"></i></button>
+        <h2>Question:</h2>
+        <p  class="question__text">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+        <p  class="answer__text">Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+        <button class="show-answer">Show</br>Answer</button>
+        <div class="container__tags">
+          <button class="tag">tag</button>
+          <button class="tag">some tag</button>
+          <button class="tag">another tag</button>
+          <button class="tag">one more tag</button>
+        </div>
+        </article>
+        <article class="question__card">
+          <button class="bookmark"><i class="fa-solid fa-bookmark"></i></button>
+        <h2>Question:</h2>
+        <p  class="question__text">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+        <p  class="answer__text">Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+        <button class="show-answer">Show</br>Answer</button>
+        <div class="container__tags">
+          <button class="tag">tag</button>
+          <button class="tag">some tag</button>
+          <button class="tag">another tag</button>
+          <button class="tag">one more tag</button>
         </div>
         </article>
         </section>
-        <section class="container__question--cards">
-          <article class="question__card">
-            <div class="bookmark__marked"><i class="fa-solid fa-bookmark"></i></div>
-          <h2>Question:</h2>
-          <p  class="question__text">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
-          <!-- <p  class="answer__text">Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p> -->
-          <button type="button" id="show-answer">Show</br>Answer</button>
-          <div class="container__tags">
-            <button type="button" class="tag">tag</button>
-            <button type="button" class="tag">some tag</button>
-            <button type="button" class="tag">another tag</button>
-            <button type="button" class="tag">one more tag</button>
-          </div>
-          </article>
-          </section>
+          </main>
     <footer>
       <nav>
         <ul>
           <li>
-            <a class="button" href="index.html" alt="Home"
+            <a class="navigation__site" href="index.html" alt="Home" role="button"
               ><i class="fa-solid fa-house-chimney"></i
             ></a>
           </li>
           <li>
-            <a class="current-site" href="bookmark.html" alt="Bookmark"
+            <a class="navigation__site--current" href="bookmark.html" alt="Bookmark" role="button"
               ><i class="fa-solid fa-bookmark"></i
             ></a>
           </li>
           <li>
-            <a class="button" href="input.html" alt="Create"
+            <a class="navigation__site" href="input.html" alt="Create" role="button"
               ><i class="fa-solid fa-list"></i
             ></a>
           </li>
           <li>
-            <a class="button" href="profile.html" alt="Profil"
+            <a class="navigation__site" href="profile.html" alt="Profil" role="button"
               ><i class="fa-solid fa-user"></i
             ></a>
           </li>
@@ -87,5 +85,4 @@
       </nav>
     </footer>
   </body>
-</html>
 </html>
