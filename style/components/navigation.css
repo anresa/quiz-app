@@ -11,7 +11,7 @@ nav {
   background-color: #00343c;
 }
 
-.button {
+.navigation__site {
   color: black;
   max-width: 400px;
   background-color: white;
@@ -36,7 +36,7 @@ a:hover {
   color: #007688bd;
 }
 
-.current-site {
+.navigation__site--current {
   color: #0076887c;
   max-width: 400px;
   background-color: white;

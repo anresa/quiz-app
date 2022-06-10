@@ -15,48 +15,64 @@
     <header>
       <h1>Create</h1>
     </header>
-    <section class="container__question--cards">
-      <article class="notes">
-        <h2 class="create__title">Question:</h2>
-        <textarea class="text" rows="5" cols="50"></textarea>
-        <h2 class="create__title">Answer:</h2>
-        <textarea class="text" rows="5" cols="50"></textarea>
-        <h2 class="create__title">Tags:</h2>
-        <textarea class="text" rows="1" cols="50"></textarea>
-        <button type="button" id="submit">Submit</button>
-      </article>
-    </section>
-    <section class="container__question--cards">
-      <article class="notes">
-        <h2 class="create__title">Question:</h2>
-        <textarea class="text" rows="5" cols="50"></textarea>
-        <h2 class="create__title">Answer:</h2>
-        <textarea class="text" rows="5" cols="50"></textarea>
-        <h2 class="create__title">Tags:</h2>
-        <textarea class="text" rows="1" cols="50"></textarea>
-        <button type="button" id="submit">Submit</button>
-      </article>
-    </section>
+    <main>
+      <section class="container__question-card">
+        <article class="notes">
+          <label for="create__question">Question:</label>
+          <textarea id="create__question" cols="50" rows="5"></textarea>
+          <label for="create__answer">Answer:</label>
+          <textarea id="create__answer" cols="50" rows="5"></textarea>
+          <label for="create__tags">Tags:</label>
+          <textarea id="create__tags" cols="50" rows="1"></textarea>
+          <button type="button" id="submit">Submit</button>
+        </article>
+        <article class="notes">
+          <label for="create__question">Question:</label>
+          <textarea id="create__question" cols="50" rows="5"></textarea>
+          <label for="create__answer">Answer:</label>
+          <textarea id="create__answer" cols="50" rows="5"></textarea>
+          <label for="create__tags">Tags:</label>
+          <textarea id="create__tags" cols="50" rows="1"></textarea>
+          <button type="button" id="submit">Submit</button>
+        </article>
+      </section>
+    </main>
     <footer>
       <nav>
         <ul>
           <li>
-            <a class="button" href="index.html" alt="Home"
+            <a
+              class="navigation__site"
+              href="index.html"
+              alt="Home"
+              role="button"
               ><i class="fa-solid fa-house-chimney"></i
             ></a>
           </li>
           <li>
-            <a class="button" href="bookmark.html" alt="Bookmark"
+            <a
+              class="navigation__site"
+              href="bookmark.html"
+              alt="Bookmark"
+              role="button"
               ><i class="fa-solid fa-bookmark"></i
             ></a>
           </li>
           <li>
-            <a class="current-site" href="input.html" alt="Create"
+            <a
+              class="navigation__site--current"
+              href="input.html"
+              alt="Create"
+              role="button"
               ><i class="fa-solid fa-list"></i
             ></a>
           </li>
           <li>
-            <a class="button" href="profile.html" alt="Profil"
+            <a
+              class="navigation__site"
+              href="profile.html"
+              alt="Profil"
+              role="button"
               ><i class="fa-solid fa-user"></i
             ></a>
           </li>

@@ -7,8 +7,10 @@
   position: relative;
 }
 
-.create__title {
+label {
   padding-bottom: 10px;
+  font-size: 23px;
+  font-weight: 700;
 }
 
 #submit {
@@ -20,7 +22,21 @@
   border-radius: 5px;
 }
 
-.text {
+#create__question {
+  display: flex;
+  margin-bottom: 30px;
+  border: white;
+  max-width: 300px;
+}
+
+#create__answer {
+  display: flex;
+  margin-bottom: 30px;
+  border: white;
+  max-width: 300px;
+}
+
+#create__tags {
   display: flex;
   margin-bottom: 30px;
   border: white;
