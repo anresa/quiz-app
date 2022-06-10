@@ -1,22 +1,28 @@
 .notes {
   max-width: 400px;
-  background-color: #0076887c;
+  background: linear-gradient(
+    128deg,
+    rgba(0, 118, 136, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
   border-radius: 10px;
   padding: 50px;
   display: grid;
   position: relative;
+  border-bottom: solid 2px black;
 }
 
 label {
   padding-bottom: 10px;
   font-size: 23px;
   font-weight: 700;
+  color: white;
 }
 
 #submit {
   font-size: 14px;
-  background-color: #00343c;
-  border-color: #02181b;
+  background-color: black;
+  border-color: white;
   color: white;
   padding: 7px;
   border-radius: 5px;
